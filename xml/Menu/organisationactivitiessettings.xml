@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/organisationactivities/settings</path>
+    <page_callback>CRM_Organisationactivities_Form_OrganisationactivitiesSettings</page_callback>
+    <title>Organisation Activities Settings</title>
+    <access_arguments>admin CiviCRM</access_arguments>
+  </item>
+</menu>

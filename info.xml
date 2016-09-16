@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<extension key="com.compucorptask.organisationactivities" type="module">
+  <file>organisationactivities</file>
+  <name>Organization Activities</name>
+  <description><![CDATA[This extension should create a new CiviCRM contact “tab” which should only be shown for Organisation contacts.
+
+    This tab should display activity records for contacts which have a relationship record with the organisation contact and where the related contact is an individual contact only.
+
+    For additional flexibility add a settings page (that is only accessible by the administrator) that allows the administrator to:
+
+    - specify which relationship types should be included by the new tab
+    - which activity types should be included by the new tab
+
+    i.e. If I set to only include those with employer of/ employee of relationship type, then only activities from contacts who are related to the Organisation by way of this relationship type should be included]]></description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Bernardo Araujo</author>
+    <email>bernardo.k.araujo@gmail.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://FIXME</url>
+    <url desc="Documentation">http://FIXME</url>
+    <url desc="Support">http://FIXME</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-09-03</releaseDate>
+   <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Organisationactivities</namespace>
+  </civix>
+</extension>
